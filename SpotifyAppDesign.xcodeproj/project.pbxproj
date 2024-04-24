@@ -11,6 +11,24 @@
 		E25E8E2E2BD3D1550097EACE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E8E2D2BD3D1550097EACE /* ContentView.swift */; };
 		E25E8E302BD3D1570097EACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25E8E2F2BD3D1570097EACE /* Assets.xcassets */; };
 		E25E8E342BD3D1570097EACE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25E8E332BD3D1570097EACE /* Preview Assets.xcassets */; };
+		E298B9052BD4F56D00F74DC9 /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298B9042BD4F56D00F74DC9 /* ImageLoaderView.swift */; };
+		E298B9072BD4F62300F74DC9 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298B9062BD4F62300F74DC9 /* Constans.swift */; };
+		E298B9092BD4F7BA00F74DC9 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298B9082BD4F7BA00F74DC9 /* DatabaseHelper.swift */; };
+		E298B90B2BD4FA5100F74DC9 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298B90A2BD4FA5100F74DC9 /* Product.swift */; };
+		E298B90D2BD4FA7500F74DC9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298B90C2BD4FA7500F74DC9 /* User.swift */; };
+		E298B9102BD4FCF600F74DC9 /* SwiftfulUI in Frameworks */ = {isa = PBXBuildFile; productRef = E298B90F2BD4FCF600F74DC9 /* SwiftfulUI */; };
+		E298B9132BD4FD1800F74DC9 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = E298B9122BD4FD1800F74DC9 /* SwiftfulRouting */; };
+		E298B9182BD5079D00F74DC9 /* SpotifyHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298B9172BD5079D00F74DC9 /* SpotifyHomeView.swift */; };
+		E298B91A2BD50A3400F74DC9 /* SpotifyCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298B9192BD50A3400F74DC9 /* SpotifyCategoryCell.swift */; };
+		E298B91D2BD5120700F74DC9 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298B91C2BD5120700F74DC9 /* Category.swift */; };
+		E298B91F2BD5257A00F74DC9 /* SpotifyRecentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298B91E2BD5257A00F74DC9 /* SpotifyRecentsCell.swift */; };
+		E298B9212BD52F0600F74DC9 /* SpotifyNewReleaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298B9202BD52F0600F74DC9 /* SpotifyNewReleaseCell.swift */; };
+		E298B9232BD54EEE00F74DC9 /* ImageTitleRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298B9222BD54EEE00F74DC9 /* ImageTitleRowCell.swift */; };
+		E2C0BE902BD3E258002654DD /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E2C0BE8F2BD3E258002654DD /* SDWebImageSwiftUI */; };
+		E2C825062BD64DA7004D03E5 /* SpotifyPlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C825052BD64DA7004D03E5 /* SpotifyPlaylistView.swift */; };
+		E2C825082BD64DE9004D03E5 /* PlaylistHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C825072BD64DE9004D03E5 /* PlaylistHeaderCell.swift */; };
+		E2C8250A2BD656CA004D03E5 /* PlaylistDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C825092BD656CA004D03E5 /* PlaylistDescriptionCell.swift */; };
+		E2C8250C2BD67D42004D03E5 /* SongRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C8250B2BD67D42004D03E5 /* SongRowCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +38,21 @@
 		E25E8E2F2BD3D1570097EACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E25E8E312BD3D1570097EACE /* SpotifyAppDesign.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpotifyAppDesign.entitlements; sourceTree = "<group>"; };
 		E25E8E332BD3D1570097EACE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E298B9042BD4F56D00F74DC9 /* ImageLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderView.swift; sourceTree = "<group>"; };
+		E298B9062BD4F62300F74DC9 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		E298B9082BD4F7BA00F74DC9 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		E298B90A2BD4FA5100F74DC9 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E298B90C2BD4FA7500F74DC9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E298B9172BD5079D00F74DC9 /* SpotifyHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyHomeView.swift; sourceTree = "<group>"; };
+		E298B9192BD50A3400F74DC9 /* SpotifyCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyCategoryCell.swift; sourceTree = "<group>"; };
+		E298B91C2BD5120700F74DC9 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E298B91E2BD5257A00F74DC9 /* SpotifyRecentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyRecentsCell.swift; sourceTree = "<group>"; };
+		E298B9202BD52F0600F74DC9 /* SpotifyNewReleaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyNewReleaseCell.swift; sourceTree = "<group>"; };
+		E298B9222BD54EEE00F74DC9 /* ImageTitleRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTitleRowCell.swift; sourceTree = "<group>"; };
+		E2C825052BD64DA7004D03E5 /* SpotifyPlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyPlaylistView.swift; sourceTree = "<group>"; };
+		E2C825072BD64DE9004D03E5 /* PlaylistHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistHeaderCell.swift; sourceTree = "<group>"; };
+		E2C825092BD656CA004D03E5 /* PlaylistDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistDescriptionCell.swift; sourceTree = "<group>"; };
+		E2C8250B2BD67D42004D03E5 /* SongRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRowCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E298B9102BD4FCF600F74DC9 /* SwiftfulUI in Frameworks */,
+				E298B9132BD4FD1800F74DC9 /* SwiftfulRouting in Frameworks */,
+				E2C0BE902BD3E258002654DD /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +90,8 @@
 			children = (
 				E25E8E2B2BD3D1550097EACE /* SpotifyAppDesignApp.swift */,
 				E25E8E2D2BD3D1550097EACE /* ContentView.swift */,
+				E298B9142BD5076200F74DC9 /* Spotify */,
+				E298B9032BD4F55000F74DC9 /* Shared */,
 				E25E8E2F2BD3D1570097EACE /* Assets.xcassets */,
 				E25E8E312BD3D1570097EACE /* SpotifyAppDesign.entitlements */,
 				E25E8E322BD3D1570097EACE /* Preview Content */,
@@ -67,6 +105,59 @@
 				E25E8E332BD3D1570097EACE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E298B9032BD4F55000F74DC9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E298B9042BD4F56D00F74DC9 /* ImageLoaderView.swift */,
+				E298B9062BD4F62300F74DC9 /* Constans.swift */,
+				E298B9082BD4F7BA00F74DC9 /* DatabaseHelper.swift */,
+				E298B90A2BD4FA5100F74DC9 /* Product.swift */,
+				E298B90C2BD4FA7500F74DC9 /* User.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E298B9142BD5076200F74DC9 /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				E298B91B2BD5119500F74DC9 /* Models */,
+				E298B9162BD5077300F74DC9 /* Components */,
+				E298B9152BD5076B00F74DC9 /* Core */,
+			);
+			path = Spotify;
+			sourceTree = "<group>";
+		};
+		E298B9152BD5076B00F74DC9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E298B9172BD5079D00F74DC9 /* SpotifyHomeView.swift */,
+				E2C825052BD64DA7004D03E5 /* SpotifyPlaylistView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E298B9162BD5077300F74DC9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E298B9192BD50A3400F74DC9 /* SpotifyCategoryCell.swift */,
+				E298B91E2BD5257A00F74DC9 /* SpotifyRecentsCell.swift */,
+				E298B9202BD52F0600F74DC9 /* SpotifyNewReleaseCell.swift */,
+				E298B9222BD54EEE00F74DC9 /* ImageTitleRowCell.swift */,
+				E2C825072BD64DE9004D03E5 /* PlaylistHeaderCell.swift */,
+				E2C825092BD656CA004D03E5 /* PlaylistDescriptionCell.swift */,
+				E2C8250B2BD67D42004D03E5 /* SongRowCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E298B91B2BD5119500F74DC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E298B91C2BD5120700F74DC9 /* Category.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +176,11 @@
 			dependencies = (
 			);
 			name = SpotifyAppDesign;
+			packageProductDependencies = (
+				E2C0BE8F2BD3E258002654DD /* SDWebImageSwiftUI */,
+				E298B90F2BD4FCF600F74DC9 /* SwiftfulUI */,
+				E298B9122BD4FD1800F74DC9 /* SwiftfulRouting */,
+			);
 			productName = SpotifyAppDesign;
 			productReference = E25E8E282BD3D1550097EACE /* SpotifyAppDesign.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +209,11 @@
 				Base,
 			);
 			mainGroup = E25E8E1F2BD3D1540097EACE;
+			packageReferences = (
+				E2C0BE8E2BD3E258002654DD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				E298B90E2BD4FCF600F74DC9 /* XCRemoteSwiftPackageReference "SwiftfulUI" */,
+				E298B9112BD4FD1800F74DC9 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
+			);
 			productRefGroup = E25E8E292BD3D1550097EACE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +240,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E298B9052BD4F56D00F74DC9 /* ImageLoaderView.swift in Sources */,
+				E298B91D2BD5120700F74DC9 /* Category.swift in Sources */,
+				E298B91A2BD50A3400F74DC9 /* SpotifyCategoryCell.swift in Sources */,
+				E298B9212BD52F0600F74DC9 /* SpotifyNewReleaseCell.swift in Sources */,
+				E2C825082BD64DE9004D03E5 /* PlaylistHeaderCell.swift in Sources */,
+				E298B9092BD4F7BA00F74DC9 /* DatabaseHelper.swift in Sources */,
+				E298B9182BD5079D00F74DC9 /* SpotifyHomeView.swift in Sources */,
+				E298B9232BD54EEE00F74DC9 /* ImageTitleRowCell.swift in Sources */,
+				E2C825062BD64DA7004D03E5 /* SpotifyPlaylistView.swift in Sources */,
 				E25E8E2E2BD3D1550097EACE /* ContentView.swift in Sources */,
+				E298B9072BD4F62300F74DC9 /* Constans.swift in Sources */,
 				E25E8E2C2BD3D1550097EACE /* SpotifyAppDesignApp.swift in Sources */,
+				E298B91F2BD5257A00F74DC9 /* SpotifyRecentsCell.swift in Sources */,
+				E298B90B2BD4FA5100F74DC9 /* Product.swift in Sources */,
+				E2C8250C2BD67D42004D03E5 /* SongRowCell.swift in Sources */,
+				E2C8250A2BD656CA004D03E5 /* PlaylistDescriptionCell.swift in Sources */,
+				E298B90D2BD4FA7500F74DC9 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +475,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E298B90E2BD4FCF600F74DC9 /* XCRemoteSwiftPackageReference "SwiftfulUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		E298B9112BD4FD1800F74DC9 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulRouting.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.2;
+			};
+		};
+		E2C0BE8E2BD3E258002654DD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E298B90F2BD4FCF600F74DC9 /* SwiftfulUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E298B90E2BD4FCF600F74DC9 /* XCRemoteSwiftPackageReference "SwiftfulUI" */;
+			productName = SwiftfulUI;
+		};
+		E298B9122BD4FD1800F74DC9 /* SwiftfulRouting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E298B9112BD4FD1800F74DC9 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */;
+			productName = SwiftfulRouting;
+		};
+		E2C0BE8F2BD3E258002654DD /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2C0BE8E2BD3E258002654DD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E25E8E202BD3D1540097EACE /* Project object */;
 }
